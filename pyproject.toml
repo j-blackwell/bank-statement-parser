@@ -1,0 +1,19 @@
+[project]
+name = "bank-statement-parser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "James Robinson", email = "james@ember-climate.org" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "docling>=2.14.0",
+    "ipython>=8.31.0",
+    "jupyter>=1.1.1",
+    "polars>=1.18.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
